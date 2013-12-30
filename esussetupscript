@@ -1,0 +1,8 @@
+sudo unzip 2.0.4.2f.zip -d b;sudo unzip 2.0.4.2f.zip -d c; sudo mv b/2.0.4.2/* b/; sudo mv c/2.0.4.2/* c; sudo chmod -R 777 *; cd ../;
+
+
+Clean UP stuff
+sudo rm NAME/{b,c}/{install.php,new_admin.php}
+sudo chmod -R 775 NAME
+sudo chmod -R 777 NAME/{b,c}/uploads
+
